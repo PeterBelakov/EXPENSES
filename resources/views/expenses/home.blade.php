@@ -7,6 +7,6 @@
 <hr>
 
 <a href="{{ route('expenses.index') }}" class="btn btn-info">View Expenses</a>
-<a href="{{ route('expenses.create') }}" class="btn btn-primary">Add New Expenses</a>
+<a href="{{ url('/create') }}" class="btn btn-primary">Add New Expenses</a>
 
 @stop

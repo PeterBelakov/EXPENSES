@@ -12,4 +12,7 @@ Route::get('/', [
 ]);
 
 
-Route::resource('expenses', 'ExpensesController@index');
+
+Route::resource('expenses', 'ExpensesController');
+Route::get('/create', 'ExpensesController@create');
+
