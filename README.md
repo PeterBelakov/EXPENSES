@@ -14,6 +14,6 @@ Installation Steps:
 ================================================================================
 1. Enter your root directory (cd path_to_your_directory)
 1. git clone https://github.com/PeterBelakov/EXPENSES.git
-3. Open browser http://localhost/EXPENSES/public
+3. Open in browser http://localhost/EXPENSES/public
 4. Database backup could be find in  ./expenses_db.sql . Just simply import it
 5. Configure database settings in ../config/database.php
